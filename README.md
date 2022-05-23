@@ -3,6 +3,9 @@ Containerized ExpressJs solution prebuilt around a Docker container.
 
 ## Notes
 Port 3000 exposed on Dockerfile by default
+Installs PUG2-beta by default. Remove and Re-install to get PUG3.x
+        npm uninstall pug
+        npm install pug@latest
 
 ## Instructions
 Clone the repo
@@ -10,7 +13,7 @@ Clone the repo
 
 ### Linux
 Change the StartFile to Executable
-        chmod +x Start.x
+        chmod +x Start.bat
 
 Run the Start File
-        ./Start.x
+        ./Start.bat

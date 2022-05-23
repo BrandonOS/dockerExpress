@@ -1,0 +1,1 @@
+npm install -g express-generator@latest && express --pug --force
