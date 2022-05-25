@@ -25,8 +25,8 @@ Run the Start File
 	./Start.bat
   ```
 ## Notes
-Port 3000 exposed on Dockerfile by default
-Installs PUG2-beta by default. Remove and Re-install to get PUG3.x.
+* Port 3000 exposed on Dockerfile by default
+* Installs PUG2-beta by default. Remove and Re-install to get PUG3.x.
 * Remove
   ```sh
 	npm uninstall pug
